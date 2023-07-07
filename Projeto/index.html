@@ -9,17 +9,21 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Oxanium:wght@300;400;700&display=swap" rel="stylesheet">
-    /*font-family: 'Oxanium', cursive;*/
+    <link rel="stylesheet" href="src/css/reset.css">
+    <link rel="stylesheet" href="src/css/estilos.css">
+    <link rel="stylesheet" href="src/css/responsivo.css">
+    <!--#font-family: 'Oxanium', cursive; -->
 </head>
 
 <body>
     <header class="cabecalho">
+        <img class="logo" src="src/image/logo.svg" alt="Logo X-men">
     </header>
     <main class="selecao-de-personagens">
         <section class="personagens">
             <h1 class="titulo">Selecione um personagem</h1>
             <ul class="lista-de-personagens">
-                <li class="personagem" id="ciclope">
+                <li class="personagem selecionado" id="ciclope">
                     <img src="src/image/card-ciclope.jpg" alt="Pesonagem ciclope">
                 </li>
                 <li class="personagem" id="jean-gray">
@@ -46,7 +50,7 @@
             </ul>
         </section>
         <section class="personagem-selecionado">
-            <img class="personagem-" src="src/image/card-ciclope.png" alt="Pesonagem Selecionado">
+            <img class="personagem-grande" src="src/image/card-ciclope.png" alt="Pesonagem Selecionado">
             <div class="informacoes-personagens">
                 <h2 class="nome-personagem" id="nome-personagem">Ciclope</h2>
                 <p class="descricao-personagem" id="descricao-personagem">Ele tem o poder de disparar rajadas ópticas
