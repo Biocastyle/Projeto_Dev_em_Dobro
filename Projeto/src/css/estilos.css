@@ -1,10 +1,12 @@
+/*#font-family: 'Oxanium', cursive*/
+
 body {
     font-family: 'Oxanium', cursive;
     background-color: #000000;
     color: #ffffff;
 }
 
-body::before{
+body::before {
     content: "";
     background-image: url(../image/bg-desktop.jpg);
     background-repeat: no-repeat;
@@ -25,7 +27,7 @@ body::before{
 .selecao-de-personagens {
     display: flex;
     align-items: center;
-    gap: 30px;    
+    gap: 30px;
     min-height: calc(100vh - 152px);
     justify-content: center;
 }
@@ -68,23 +70,24 @@ body::before{
 .personagem-selecionado {
     text-align: center;
     max-height: 530px;
-    
+
 }
 
-.personagem-selecionado .personagem-grande{
+.personagem-selecionado .personagem-grande {
     width: 430px;
     height: 430px;
 }
 
-.personagem-selecionado .nome-personagem{
+.personagem-selecionado .nome-personagem {
     border-bottom: 2px solid #47f4ff;
     letter-spacing: 4px;
     text-transform: uppercase;
 }
 
-.personagem-selecionado .descricao-personagem{
+.personagem-selecionado .descricao-personagem {
     font-size: 16px;
     line-height: 22px;
     text-align: center;
     margin-top: 20px;
-    width: 420px}
+    width: 420px
+}
